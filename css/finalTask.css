@@ -1,0 +1,77 @@
+﻿body {
+    background-color: darkslategray;
+}
+.btn {
+    padding: 16px;
+    background: lightslategray;
+    border: none;
+    display: inline-block;
+    font-size: 14px;
+    color: floralwhite;
+    position: relative;
+    cursor: pointer;
+    border-radius: 2px;
+    transition-duration: 0.2s;
+    font-weight: 600;
+    text-align: center;
+    position: absolute;
+    top: 0;
+}
+.button:hover {
+    background-color: darkslategray;
+    transition: 0.7s;
+}
+
+.ukr {
+    right: 0;
+}
+
+.eng {
+    left: 0;
+}
+.f1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: azure;
+    text-align: center;
+}
+.f2 {
+    font-size: 25px;
+}
+.f3 {
+    font-size: 20px;
+    padding: 0px 0px 0px 20px;
+}
+.sport {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: azure;
+    text-align: center;
+    padding: 150px 0px 0px 0px;
+}
+.container {
+    position: relative;
+    max-width: 100%; /* Maximum width */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+    .container .content {
+        position: absolute; /* Position the background text */
+        bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+        background: rgb(0, 0, 0); /* Fallback color */
+        background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+        color: #f1f1f1; /* Grey text */
+        width: 100%; /* Full width */
+        padding: 20px; /* Some padding */
+        text-align: center;
+    }
+a:visited {
+    color: azure;
+}
+
+a:active {
+    color: azure;
+}
