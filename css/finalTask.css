@@ -1,4 +1,4 @@
-﻿body {
+body {
     background-color: darkslategray;
 }
 .btn {
@@ -41,6 +41,9 @@
 .f3 {
     font-size: 20px;
     padding: 0px 0px 0px 20px;
+}
+.f4 {
+    text-align: left;
 }
 .sport {
     font-family: 'Times New Roman', Times, serif;
