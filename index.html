@@ -5,8 +5,10 @@
     <meta charset="utf-8" />
     <title>Для любителів спорту</title>
     <link rel="stylesheet" type="text/css" href="css/finalTask.css" />
+    <link rel="icon" href="images/icon.jpg" type="image/gif" sizes="16x16">
 </head>
 <body link="red">
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
     <button class="btn ukr button">Українська &#127482;&#127462;</button>
     <button class="btn eng button">Англійська &#127468;&#127463;</button>
     <h3 class=" f1 f3">#DevelopYourself <br /> @develop_yourself</h3>
@@ -85,5 +87,21 @@
     <a class=" f1 f3">Введіть ваш час: <input type="text" /></a>
     <button onclick="this.style.backgroundColor = '#ddd'">зберегти результат</button>
     <button onclick="this.style.backgroundColor = '#ddd'">переглянути історію</button>
+    <script>
+        let mybutton = document.getElementById("myBtn");
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
 </body>
 </html>
